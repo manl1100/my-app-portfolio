@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">App Portfolio</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Button text -->
+    <string name="project_title">Nano Degree Projects</string>
+    <string name="project_one">Spotify Streamer</string>
+    <string name="project_two">Super Duo</string>
+    <string name="project_three">Build It Bigger</string>
+    <string name="project_four">XYZ Reader</string>
+    <string name="capstone">Capstone</string>
+
+</resources>

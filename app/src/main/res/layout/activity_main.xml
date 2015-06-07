@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEFF1"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/portfolio_title"
+        style="@style/headerTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:onClick="displayAppLauncherToast"
+        android:text="@string/project_title"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/streamer"
+        style="@style/buttonTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:width="250dp"
+        android:onClick="displayAppLauncherToast"
+        android:text="@string/project_one" />
+
+    <Button
+        android:id="@+id/super_duo"
+        style="@style/buttonTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:width="250dp"
+        android:onClick="displayAppLauncherToast"
+        android:text="@string/project_two" />
+
+    <Button
+        android:id="@+id/build_it_bigger"
+        style="@style/buttonTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:width="250dp"
+        android:onClick="displayAppLauncherToast"
+        android:text="@string/project_three" />
+
+    <Button
+        android:id="@+id/reader"
+        style="@style/buttonTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:width="250dp"
+        android:onClick="displayAppLauncherToast"
+        android:text="@string/project_four" />
+
+    <Button
+        android:id="@+id/capstone"
+        style="@style/buttonTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:width="250dp"
+        android:onClick="displayAppLauncherToast"
+        android:text="@string/capstone" />
+
+</LinearLayout>
